@@ -39,7 +39,7 @@ if (isset($id) && isset($username) && isset($voucher)) {
 
     $jsonDecoded = json_decode($resp);
 
-    if ($jsonDecoded->status->message == "success") {
+    if ($jsonDecoded->status->code == "SUCCESS") {
         try {
             $select_stmt = $db->prepare("SELECT * FROM goods WHERE id = :uid");
             $select_stmt->execute(array(':uid' => $id));
@@ -73,7 +73,7 @@ if (isset($id) && isset($username) && isset($voucher)) {
             header("Location: $host?page=purchase&error=1004", true, 301);
         }
     } else {
-        header("Location: $host?page=purchase&error=1002", true, 301);
+        // header("Location: $host?page=purchase&error=1002", true, 301);
     }
 } else {
     header("Location: $host?page=purchase&error&error=1001", true, 301);
