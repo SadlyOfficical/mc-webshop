@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    padding-top: 100px;
+}
+
+.navbar {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-nav>li>.dropdown-menu a:focus {
+    background-color: #ca6fff !important;
+}
+
+.logout-btn:focus {
+    box-shadow: none!important;
+    outline: 0;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+i.fad {
+    color: #af25ff;
+}
+
+i.fab {
+    color: #ca6fff;
+}
+
+.carousel {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carousel .carousel-inner {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box .announce {
+    margin-bottom: 10px;
+}
+
+.box .main-box {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+.box .main-box .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table>tbody>tr>td {
+    font-size: 16px;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.badge.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge.badge-info {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.badge.badge-error {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.badge.badge-warning {
+    color: #111;
+    background-color: #ffc107;
+}
+
+.github-widget {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 17px;
+    height: 475px;
+}
+
+.team .role {
+    margin-bottom: -25px;
+    margin-top: 20px;
+}
+
+.team .item {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.team .item:last-child {
+    margin-right: auto;
+}
+
+.team .item img {
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.team .row:first-child {
+    border-top: 0px;
+}
+
+.team .row {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ca6fff;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(278, 100%, 72%, 13%);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #ca6fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem hsla(278, 100%, 72%, 25%);
+}
+
+.card {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow .25s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+.img-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.card-content .price-badge {
+    position: absolute;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 6px;
+    margin-right: 5px;
+    color: #fff;
+    right: 0px;
+    top: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-title {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.card-purchase {
+    border-top: 1px solid #D4D4D4;
+}
+
+.card-purchase a {
+    text-decoration: none !important;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.card-button {
+    color: #ca6fff;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: color 0.25s ease-out;
+    -moz-transition: color 0.25s ease-out;
+    -o-transition: color 0.25s ease-out;
+    transition: color 0.25s ease-out;
+}
+
+.card-button:hover {
+    color: #af25ff;
+}
+
+.purchase-popup {
+    position: fixed;
+    backdrop-filter: blur(5px);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+.purchase-popup .purchase-popup-container {
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 10px;
+    top: 20%;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.purchase-popup .purchase-popup-container .field {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+.purchase-popup .purchase-popup-container .field:focus {
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.purchase-popup .purchase-popup-container .button {
+    color: #ca6fff;
+    background-color: transparent;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    -webkit-transition: color 0.25s ease-out;
+    -moz-transition: color 0.25s ease-out;
+    -o-transition: color 0.25s ease-out;
+    transition: color 0.25s ease-out;
+}
+
+.purchase-popup .purchase-popup-container .button:hover {
+    color: #af25ff;
+}
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
