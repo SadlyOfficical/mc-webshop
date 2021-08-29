@@ -3,3 +3,5 @@
 ให้ทำการตั้งค่าฐานข้อมูลและข้อมูลต่างๆใน config.php และ database.php ก่อน
 และติดตั้ง sql โดยการ import จาก sql/webshop.sql
 </font>
+
+<img src="https://www.desktophut.com/wp-content/uploads/2018/10/minecraft-wallpaper.jpg.webp" alt="">
