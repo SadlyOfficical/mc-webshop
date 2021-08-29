@@ -73,7 +73,7 @@ if (isset($id) && isset($username) && isset($voucher)) {
             header("Location: $host?page=purchase&error=1004", true, 301);
         }
     } else {
-        // header("Location: $host?page=purchase&error=1002", true, 301);
+        header("Location: $host?page=purchase&error=1002", true, 301);
     }
 } else {
     header("Location: $host?page=purchase&error&error=1001", true, 301);
