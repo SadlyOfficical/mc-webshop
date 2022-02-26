@@ -34,7 +34,7 @@ CREATE TABLE `goods` (
   `description` text DEFAULT NULL,
   `price` float NOT NULL,
   `image` text NOT NULL,
-  `rcon_host` text NOT NULL DEFAULT '\'127.0.0.1\'',
+  `rcon_host` text NOT NULL,
   `rcon_port` int(5) NOT NULL,
   `rcon_password` text NOT NULL,
   `command` text NOT NULL
